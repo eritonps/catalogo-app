@@ -27,7 +27,7 @@ const Header = () => {
                                         Mais Estampas
                                     </Link>
                                     <ul className="dropdown-menu dropdown-menu-dark mb-3 press-color" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><Link to="/lancamento" className="dropdown-item">Lançamentos</Link></li>
+                                        <li><Link to="/lancamentos" className="dropdown-item">Lançamentos</Link></li>
                                         <li><Link to="/foto" className="dropdown-item">Com sua Foto</Link></li>
                                         <li><Link to="/delicadas" className="dropdown-item">Delicadas</Link></li>
                                         <li><Link to="/signos" className="dropdown-item">Signos</Link></li>

@@ -1,0 +1,9 @@
+.container-add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+}

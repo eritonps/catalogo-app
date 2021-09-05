@@ -5,6 +5,7 @@ import Footer from './components/footer'
 import Category from './components/category';
 import Data from './db/info.json'
 import Home from './components/home'
+import NewCase from './components/newCase';
 
 
 function App() {
@@ -73,6 +74,10 @@ function App() {
 
           <Route path='/contato'>
             <Category name="Lojas" data={Data.esportivo}/>
+          </Route>
+
+          <Route path='/newCase'>
+            <NewCase/>
           </Route>
 
           <Route path='/'>

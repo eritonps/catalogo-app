@@ -8,3 +8,13 @@
 .container{
   display: flex;
 }
+
+.btn:focus {
+  border: none;
+  outline: none;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
