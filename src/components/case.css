@@ -1,0 +1,10 @@
+.name{
+    font-size: 0.7rem;
+    margin-bottom: 0;
+}
+
+.price{
+    color: #0e71b8;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
