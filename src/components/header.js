@@ -8,7 +8,7 @@ const Header = () => {
             <header className="header">
                 <nav className="navbar navbar-expand-md navbar-dark bg-cases">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#"><img src="https://i.ibb.co/3NFhRFR/Logo-Branca.png" alt="Cases e Capas" height="35px" width="72px"></img></a>
+                        <Link className="navbar-brand" to="/"><img src="https://i.ibb.co/3NFhRFR/Logo-Branca.png" alt="Cases e Capas" height="35px" width="72px"></img></Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -22,10 +22,10 @@ const Header = () => {
                                     <Link to='/comnome' className="nav-link">Com seu Nome</Link>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Mais Estampas
-                                    </a>
+                                    </Link>
                                     <ul className="dropdown-menu dropdown-menu-dark mb-3 press-color" aria-labelledby="navbarDropdownMenuLink">
                                         <li><Link to="/lancamento" className="dropdown-item">Lançamentos</Link></li>
                                         <li><Link to="/foto" className="dropdown-item">Com sua Foto</Link></li>
@@ -50,10 +50,10 @@ const Header = () => {
                         </div>
                         <Link to="/contato"><button className="btn btn-success rounded-pill me-2" type="submit"><i
                             className="bi bi-whatsapp"></i>WhatsApp</button></Link>
-                        <a href="https://pt-br.facebook.com/casesecapasoficial" target="_blank"><i
-                            className="bi bi-facebook icon-navbar me-2"></i></a>
-                        <a href="https://www.instagram.com/casesecapasoficial/" target="_blank"><i
-                            className="bi bi-instagram icon-navbar"></i></a>
+                        <Link href="https://pt-br.facebook.com/casesecapasoficial" target="_blank"><i
+                            className="bi bi-facebook icon-navbar me-2"></i></Link>
+                        <Link href="https://www.instagram.com/casesecapasoficial/" target="_blank"><i
+                            className="bi bi-instagram icon-navbar"></i></Link>
                     </div>
                 </nav>
             </header>
