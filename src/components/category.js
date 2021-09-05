@@ -8,7 +8,7 @@ const Category = (props) => {
         <div className="container">
             <p className="text-center fs-2 fw-bold mb-0 color">{props.name}</p>
             <hr className="dropdown-divider"></hr>
-            <div className="row row-cols-6">
+            <div className="row row-cols-3 row-cols-xl-6 row-cols-md-5 row-cols-sm-4 g-0">
                 {props.data.map((iten,index) =>(
                     <Case
                     key={index}
